@@ -1,0 +1,12 @@
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\bin\Debug\net6.0\TARge21Shop.Core.deps.json
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\bin\Debug\net6.0\TARge21Shop.Core.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\bin\Debug\net6.0\TARge21Shop.Core.pdb
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\TARge21Shop.Core.csproj.AssemblyReference.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\TARge21Shop.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\TARge21Shop.Core.AssemblyInfoInputs.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\TARge21Shop.Core.AssemblyInfo.cs
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\TARge21Shop.Core.csproj.CoreCompileInputs.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\TARge21Shop.Core.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\refint\TARge21Shop.Core.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\TARge21Shop.Core.pdb
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.Core\obj\Debug\net6.0\ref\TARge21Shop.Core.dll

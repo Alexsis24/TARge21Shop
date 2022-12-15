@@ -1,0 +1,17 @@
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\bin\Debug\net6.0\TARge21Shop.ApplicationServices.deps.json
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\bin\Debug\net6.0\TARge21Shop.ApplicationServices.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\bin\Debug\net6.0\TARge21Shop.ApplicationServices.pdb
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\bin\Debug\net6.0\TARge21Shop.Core.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\bin\Debug\net6.0\TARge21Shop.Data.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\bin\Debug\net6.0\TARge21Shop.Data.pdb
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\bin\Debug\net6.0\TARge21Shop.Core.pdb
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.AssemblyInfo.cs
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.csproj.CopyComplete
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\refint\TARge21Shop.ApplicationServices.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\TARge21Shop.ApplicationServices.pdb
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop.ApplicationServices\obj\Debug\net6.0\ref\TARge21Shop.ApplicationServices.dll
