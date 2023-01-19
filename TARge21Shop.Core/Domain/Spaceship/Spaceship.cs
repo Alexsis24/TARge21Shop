@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TARge21Shop.Core.Domain.Spaceship
+namespace TARge21Shop.Core.Domain
 {
     public class Spaceship
     {
