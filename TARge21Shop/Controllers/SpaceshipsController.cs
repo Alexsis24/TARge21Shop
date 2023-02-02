@@ -131,7 +131,6 @@ namespace TARge21Shop.Controllers
             vm.ModifiedAt = spaceship.ModifiedAt;
             vm.Image.AddRange(photos);
 
-
             return View("CreateUpdate", vm);
         }
 

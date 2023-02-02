@@ -82,5 +82,24 @@ namespace TARge21Shop.ApplicationServices.Services
             return domain;
         }
 
+        public async Task<RealEstate> Delete(Guid id)
+        {
+            var realEstateId = await _context.RealEstates
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            _context.RealEstates.Remove(realEstateId);
+            await _context.SaveChangesAsync();
+
+            return realEstateId;
+        }
+
+        public async Task<RealEstate> GetAsync(Guid id)
+        {
+            var result = await _context.RealEstates
+                .FirstOrDefaultAsync(x => x.Id == id);
+
+            return result;
+        }
+
     }
 }
