@@ -80,12 +80,12 @@ namespace TARge21Shop.ApplicationServices.Services
                 ModifiedAt = DateTime.Now,
             };
 
-			if (dto.Files != null)
-			{
-				_files.UploadFilesToDatabase(dto, domain);
-			}
+            if (dto.Files != null)
+            {
+                _files.UploadFilesToDatabase(dto, domain);
+            }
 
-			_context.Spaceships.Update(domain);
+            _context.Spaceships.Update(domain);
             await _context.SaveChangesAsync();
 
             return domain;
@@ -108,7 +108,7 @@ namespace TARge21Shop.ApplicationServices.Services
             var result = await _context.Spaceships
                 .FirstOrDefaultAsync(x => x.Id == id);
 
-          return result;
+            return result;
         }
     }
 }

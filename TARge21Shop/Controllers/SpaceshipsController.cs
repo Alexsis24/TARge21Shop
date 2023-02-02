@@ -107,7 +107,7 @@ namespace TARge21Shop.Controllers
                 .Select(y => new ImageViewModel
                 {
                     SpaceshipId = y.Id,
-                    ImageId= y.Id,
+                    ImageId = y.Id,
                     ImageData = y.ImageData,
                     ImageTitle = y.ImageTitle,
                     Image = string.Format("data:image/gif;base64,{0}", Convert.ToBase64String(y.ImageData))
@@ -130,7 +130,8 @@ namespace TARge21Shop.Controllers
             vm.CreatedAt = spaceship.CreatedAt;
             vm.ModifiedAt = spaceship.ModifiedAt;
             vm.Image.AddRange(photos);
-            
+
+
             return View("CreateUpdate", vm);
         }
 
@@ -154,15 +155,15 @@ namespace TARge21Shop.Controllers
                 BuiltDate = vm.BuiltDate,
                 CreatedAt = vm.CreatedAt,
                 ModifiedAt = vm.ModifiedAt,
-				Files = vm.Files,
-				Image = vm.Image.Select(x => new FileToDatabaseDto
-				{
-					Id = x.ImageId,
-					ImageData = x.ImageData,
-					ImageTitle = x.ImageTitle,
-					SpaceshipId = x.SpaceshipId,
-				}).ToArray()
-			};
+                Files = vm.Files,
+                Image = vm.Image.Select(x => new FileToDatabaseDto
+                {
+                    Id = x.ImageId,
+                    ImageData = x.ImageData,
+                    ImageTitle = x.ImageTitle,
+                    SpaceshipId = x.SpaceshipId,
+                }).ToArray()
+            };
 
             var result = await _spaceshipsServices.Update(dto);
 
@@ -241,23 +242,22 @@ namespace TARge21Shop.Controllers
 
             var vm = new SpaceshipDeleteViewModel();
 
+            vm.Id = spaceship.Id;
+            vm.Name = spaceship.Name;
+            vm.Type = spaceship.Type;
+            vm.Crew = spaceship.Crew;
+            vm.Passengers = spaceship.Passengers;
+            vm.CargoWeight = spaceship.CargoWeight;
+            vm.FullTripsCount = spaceship.FullTripsCount;
+            vm.MaintenanceCount = spaceship.MaintenanceCount;
+            vm.LastMaintenance = spaceship.LastMaintenance;
+            vm.EnginePower = spaceship.EnginePower;
+            vm.MaidenLaunch = spaceship.MaidenLaunch;
+            vm.BuiltDate = spaceship.BuiltDate;
+            vm.CreatedAt = spaceship.CreatedAt;
+            vm.ModifiedAt = spaceship.ModifiedAt;
+            vm.Image.AddRange(photos);
 
-                vm.Id = spaceship.Id;
-                vm.Name = spaceship.Name;
-                vm.Type = spaceship.Type;
-                vm.Crew = spaceship.Crew;
-                vm.Passengers = spaceship.Passengers;
-                vm.CargoWeight = spaceship.CargoWeight;
-                vm.FullTripsCount = spaceship.FullTripsCount;
-                vm.MaintenanceCount = spaceship.MaintenanceCount;
-                vm.LastMaintenance = spaceship.LastMaintenance;
-                vm.EnginePower = spaceship.EnginePower;
-                vm.MaidenLaunch = spaceship.MaidenLaunch;
-                vm.BuiltDate = spaceship.BuiltDate;
-                vm.CreatedAt = spaceship.CreatedAt;
-                vm.ModifiedAt = spaceship.ModifiedAt;
-                vm.Image.AddRange(photos);
-        
 
             return View(vm);
         }
@@ -283,6 +283,7 @@ namespace TARge21Shop.Controllers
             {
                 Id = file.ImageId
             };
+
             var image = await _filesServices.RemoveImage(dto);
 
             if (image == null)
