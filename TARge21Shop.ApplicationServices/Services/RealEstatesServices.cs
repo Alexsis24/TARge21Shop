@@ -56,5 +56,31 @@ namespace TARge21Shop.ApplicationServices.Services
             return realEstate;
         }
 
+        public async Task<RealEstate> Update(RealEstateDto dto)
+        {
+            var domain = new RealEstate()
+            {
+                Id = dto.Id,
+                Address = dto.Address,
+                City = dto.City,
+                Region = dto.Region,
+                PostalCode = dto.PostalCode,
+                Country = dto.Country,
+                Size = dto.Size,
+                Price = dto.Price,
+                Floor = dto.Floor,
+                Phone = dto.Phone,
+                Fax = dto.Fax,
+                RoomCount = dto.RoomCount,
+                CreatedAt = dto.CreatedAt,
+                ModifiedAt = dto.ModifiedAt
+            };
+                       
+            _context.RealEstates.Update(domain);
+            await _context.SaveChangesAsync();
+
+            return domain;
+        }
+
     }
 }

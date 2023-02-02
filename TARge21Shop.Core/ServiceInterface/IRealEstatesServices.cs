@@ -12,5 +12,6 @@ namespace TARge21Shop.Core.ServiceInterface
     {
         Task<RealEstate> GetAsync();
         Task<RealEstate> Create(RealEstateDto dto);
+        Task<RealEstate> Update(RealEstateDto dto);
     }
 }

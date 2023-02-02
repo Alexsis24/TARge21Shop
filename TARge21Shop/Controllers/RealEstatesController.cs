@@ -21,8 +21,6 @@ namespace TARge21Shop.Controllers
             _context = context;
         }
 
-
-        [HttpGet]
         public IActionResult Index()
         {
             var result = _context.RealEstates
@@ -41,7 +39,7 @@ namespace TARge21Shop.Controllers
         }
 
         [HttpGet]
-        public IActionResult Details()
+        public IActionResult Create()
         {
             RealEstateCreateUpdateViewModel vm = new();
 
