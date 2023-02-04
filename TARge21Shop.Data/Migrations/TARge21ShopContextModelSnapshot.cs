@@ -22,6 +22,49 @@ namespace TARge21Shop.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("TARge21Shop.Core.Domain.Car", b =>
+                {
+                    b.Property<Guid?>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Brand")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("BuiltDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EnginePower")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FullTripsCount")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("LastMaintenance")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ListedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("MaintenanceCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Model")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("PassengerCount")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cars");
+                });
+
             modelBuilder.Entity("TARge21Shop.Core.Domain.FileToDatabase", b =>
                 {
                     b.Property<Guid>("Id")

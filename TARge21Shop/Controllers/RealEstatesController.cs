@@ -10,7 +10,6 @@ using TARge21Shop.Core.Dto;
 using TARge21Shop.Core.ServiceInterface;
 using TARge21Shop.Data;
 using TARge21Shop.Models.RealEstate;
-using TARge21Shop.Models.Spaceship;
 
 namespace TARge21Shop.Controllers
 {
