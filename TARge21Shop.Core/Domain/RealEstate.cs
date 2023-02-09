@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TARge21Shop.Core.Dto;
 
 namespace TARge21Shop.Core.Domain
 {
@@ -20,6 +21,10 @@ namespace TARge21Shop.Core.Domain
         public int Floor { get; set; }
         public int Price { get; set; }
         public int RoomCount { get; set; }
+
+
+        public IEnumerable<FileToApi> FileToApis { get; set; }
+        = new List<FileToApi>();
 
         // only in database
         public DateTime CreatedAt { get; set; }

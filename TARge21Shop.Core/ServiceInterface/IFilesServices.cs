@@ -14,6 +14,7 @@ namespace TARge21Shop.Core.ServiceInterface
         //void UploadFilesToDatabase(CarDto dto, Car domain);
         Task<FileToDatabase> RemoveImage(FileToDatabaseDto dto);
         Task<List<FileToDatabase>> RemoveImagesFromDatabase(FileToDatabaseDto[] dto);
+        void FilesToApi(RealEstateDto dto, RealEstate realEstate);
 
 
     }

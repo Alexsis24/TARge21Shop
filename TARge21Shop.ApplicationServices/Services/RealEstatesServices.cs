@@ -14,23 +14,18 @@ namespace TARge21Shop.ApplicationServices.Services
     public class RealEstatesServices : IRealEstatesServices
     {
         private readonly TARge21ShopContext _context;
+        private readonly IFilesServices _filesServices;
 
         public RealEstatesServices
             (
-                TARge21ShopContext context
+                TARge21ShopContext context,
+                IFilesServices filesServices
             )
         {
              _context = context;
+             _filesServices = filesServices;
         }
-
-        public async Task<RealEstate> GetAsync()
-        {
-            //var result = await _context.RealEstates
-            //    .;
-
-            return null;
-        }
-
+               
         public async Task<RealEstate> Create(RealEstateDto dto)
         {
             RealEstate realEstate = new();
@@ -49,6 +44,8 @@ namespace TARge21Shop.ApplicationServices.Services
             realEstate.RoomCount = dto.RoomCount;
             realEstate.ModifiedAt = DateTime.Now;
             realEstate.CreatedAt = DateTime.Now;
+            _filesServices.FilesToApi(dto, realEstate);
+
             //file service
 
             await _context.RealEstates.AddAsync(realEstate);
@@ -101,14 +98,6 @@ namespace TARge21Shop.ApplicationServices.Services
 
             return result;
         }
-
-        public string FilesToApi(RealEstateDto dto, RealEstate realEstate)
-        {
-            if (dto.Files != null && dto.Files.Count > 0)
-            {
-
-            }
-        }
-
+             
     }
 }

@@ -72,7 +72,11 @@ namespace TARge21Shop.Controllers
                 Fax = vm.Fax,
                 RoomCount = vm.RoomCount,
                 CreatedAt = vm.CreatedAt,
-                ModifiedAt = vm.ModifiedAt
+                ModifiedAt = vm.ModifiedAt,
+                FileToApiDtos = vm.FileToApiViewModels.Select(x => new FileToApiDto
+                {
+
+                }).ToArray()
             };
 
             var result = await _realEstatesServices.Create(dto);
