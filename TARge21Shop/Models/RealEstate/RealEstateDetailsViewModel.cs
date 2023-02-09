@@ -1,4 +1,6 @@
-﻿namespace TARge21Shop.Models.RealEstate
+﻿using TARge21Shop.Models.Spaceship;
+
+namespace TARge21Shop.Models.RealEstate
 {
     public class RealEstateDetailsViewModel
     {
@@ -14,6 +16,7 @@
         public int Floor { get; set; }
         public int Price { get; set; }
         public int RoomCount { get; set; }
+        //public List<FileToApiViewModel> Image { get; set; } = new List<FileToApiViewModel>();
 
         // only in database
         public DateTime CreatedAt { get; set; }

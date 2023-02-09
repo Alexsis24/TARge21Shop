@@ -523,11 +523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
+      "projectUniqueName": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop base file\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
       "projectName": "TARge21Shop.Core",
-      "projectPath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
+      "projectPath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop base file\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
       "packagesPath": "C:\\Users\\krist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop\\TARge21Shop.Core\\obj\\",
+      "outputPath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop base file\\TARge21Shop\\TARge21Shop.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

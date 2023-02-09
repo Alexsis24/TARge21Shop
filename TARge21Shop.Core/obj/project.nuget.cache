@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQFPxDOVhwkJtfxLZmz1/yAwGgOlV0TPU9yf1TREkX1FYr/xK5su5swf0uFMucV3WkP/M0JGgcYdJkf9Rw7/QA==",
+  "dgSpecHash": "CFIqUcrcFgHFaz9Kdp0NxF8wHKhwu4V0gAaKMCtCk7/oxqsgVmtDvpZAh1Ht0J3SLAubSHxDS/fF77hDNGZH3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
+  "projectFilePath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop base file\\TARge21Shop\\TARge21Shop.Core\\TARge21Shop.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krist\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\krist\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

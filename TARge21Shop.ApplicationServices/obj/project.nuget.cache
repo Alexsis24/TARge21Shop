@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rK9KUzdYrGzQICB24hBPUI6IfRXNIsijebmryqklQmiDdJV5P/CVNGRYylBoexZXhXTCEjDhJlA7V45Ky3/ing==",
+  "dgSpecHash": "+x5ncCgw6aoTGN+yZWcLabchtFlKSKbixnfgD1OVw/8kKRdfvml8uiBY/P7QMgFgtgcmkrvJbaO011xsJPsHZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop\\TARge21Shop.ApplicationServices\\TARge21Shop.ApplicationServices.csproj",
+  "projectFilePath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop base file\\TARge21Shop\\TARge21Shop.ApplicationServices\\TARge21Shop.ApplicationServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krist\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.2.7\\microsoft.aspnetcore.hosting.2.2.7.nupkg.sha512",
     "C:\\Users\\krist\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",

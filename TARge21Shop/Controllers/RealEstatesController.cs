@@ -73,10 +73,14 @@ namespace TARge21Shop.Controllers
                 RoomCount = vm.RoomCount,
                 CreatedAt = vm.CreatedAt,
                 ModifiedAt = vm.ModifiedAt,
-                FileToApiDtos = vm.FileToApiViewModels.Select(x => new FileToApiDto
-                {
-
-                }).ToArray()
+                Files = vm.Files,
+                FileToApiDtos = vm.FileToApiViewModels
+                    .Select(x => new FileToApiDto
+                        {
+                            Id = x.ImageId,
+                            ExistingFilePath = x.FilePath,
+                            RealEstateId = x.RealEstateId,
+                        }).ToArray()
             };
 
             var result = await _realEstatesServices.Create(dto);

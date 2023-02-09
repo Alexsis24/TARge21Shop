@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EONCJujKY0IiQaGI3oWIFcorA6OWgc+qIkD3Mto8LgpVjln+Z/nfq36aJp1CLmiS90n4H6q9AM7/VR7FsoipZw==",
+  "dgSpecHash": "voxx0dIEm0w65oLLIc0qtBM3l93WP+Cfta0/+E7PB6VWyHNcHVk68dI7GSihfcGrrb2kASJ0HjibCEjh0o6bJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop\\TARge21Shop\\TARge21Shop.csproj",
+  "projectFilePath": "C:\\Users\\krist\\Documents\\Koolitööd\\programeerimine\\TARge21Shop base file\\TARge21Shop\\TARge21Shop\\TARge21Shop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\krist\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\krist\\.nuget\\packages\\microsoft.aspnetcore.hosting\\2.2.7\\microsoft.aspnetcore.hosting.2.2.7.nupkg.sha512",

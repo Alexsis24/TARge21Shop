@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TARge21Shop",
+    "\\TARge21Shop.ApplicationServices",
+    "\\TARge21Shop.ApplicationServices\\Services",
+    "\\TARge21Shop.Core",
+    "\\TARge21Shop.Core\\Dto",
+    "\\TARge21Shop.Data",
+    "\\TARge21Shop\\Controllers",
+    "\\TARge21Shop\\wwwroot"
+  ],
+  "SelectedNode": "\\TARge21Shop.Core\\Dto",
+  "PreviewInSolutionExplorer": false
+}
