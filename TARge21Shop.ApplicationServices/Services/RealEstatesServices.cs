@@ -49,6 +49,7 @@ namespace TARge21Shop.ApplicationServices.Services
             realEstate.RoomCount = dto.RoomCount;
             realEstate.ModifiedAt = DateTime.Now;
             realEstate.CreatedAt = DateTime.Now;
+            //file service
 
             await _context.RealEstates.AddAsync(realEstate);
             await _context.SaveChangesAsync();
@@ -99,6 +100,14 @@ namespace TARge21Shop.ApplicationServices.Services
                 .FirstOrDefaultAsync(x => x.Id == id);
 
             return result;
+        }
+
+        public string FilesToApi(RealEstateDto dto, RealEstate realEstate)
+        {
+            if (dto.Files != null && dto.Files.Count > 0)
+            {
+
+            }
         }
 
     }
