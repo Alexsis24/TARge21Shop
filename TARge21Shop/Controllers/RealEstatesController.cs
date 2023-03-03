@@ -10,7 +10,6 @@ using TARge21Shop.Core.Dto;
 using TARge21Shop.Core.ServiceInterface;
 using TARge21Shop.Data;
 using TARge21Shop.Models.RealEstate;
-using TARge21Shop.Models.Spaceship;
 
 namespace TARge21Shop.Controllers
 {
@@ -18,17 +17,21 @@ namespace TARge21Shop.Controllers
     {
         private readonly IRealEstatesServices _realEstatesServices;
         private readonly TARge21ShopContext _context;
+        private readonly IFilesServices _filesServices;
 
         public RealEstatesController
             (
                 IRealEstatesServices realEstatesServices,
-                TARge21ShopContext context
+                TARge21ShopContext context,
+                IFilesServices filesServices
             )
         {
             _realEstatesServices = realEstatesServices;
             _context = context;
+            _filesServices = filesServices;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             var result = _context.RealEstates
@@ -102,6 +105,14 @@ namespace TARge21Shop.Controllers
             {
                 return NotFound();
             }
+
+            var images = await _context.FileToApis
+                .Where(x => x.RealEstateId == id)
+                .Select(y => new FileToApiViewModel
+                {
+                    FilePath = y.ExistingFilePath,
+                    ImageId = y.Id
+                }).ToArrayAsync();
                        
             var vm = new RealEstateCreateUpdateViewModel();
 
@@ -119,6 +130,7 @@ namespace TARge21Shop.Controllers
                 vm.RoomCount = realEstates.RoomCount;
                 vm.CreatedAt = realEstates.CreatedAt;
                 vm.ModifiedAt = realEstates.ModifiedAt;
+                vm.FileToApiViewModels.AddRange(images);
 
             return View("CreateUpdate", vm);
         }
@@ -140,8 +152,16 @@ namespace TARge21Shop.Controllers
                 Phone = vm.Phone,
                 Fax = vm.Fax,
                 RoomCount = vm.RoomCount,
+                Files = vm.Files,
                 CreatedAt = vm.CreatedAt,
-                ModifiedAt = vm.ModifiedAt
+                ModifiedAt= DateTime.Now,
+                FileToApiDtos = vm.FileToApiViewModels
+                .Select(x => new FileToApiDto
+                {
+                    Id = x.ImageId,
+                    ExistingFilePath = x.FilePath,
+                    RealEstateId = x.RealEstateId,
+                }).ToArray()
             };
 
             var result = await _realEstatesServices.Update(dto);
@@ -163,7 +183,15 @@ namespace TARge21Shop.Controllers
             {
                 return NotFound();
             }
-                       
+
+            var images = await _context.FileToApis
+                .Where(x => x.RealEstateId == id)
+                .Select(y => new FileToApiViewModel
+                {
+                    FilePath = y.ExistingFilePath,
+                    ImageId = y.Id
+                }).ToArrayAsync();
+
             var vm = new RealEstateDetailsViewModel();
 
             vm.Id = realEstates.Id;
@@ -180,6 +208,7 @@ namespace TARge21Shop.Controllers
             vm.RoomCount = realEstates.RoomCount;
             vm.CreatedAt = realEstates.CreatedAt;
             vm.ModifiedAt = realEstates.ModifiedAt;
+            vm.FileToApiViewModels.AddRange(images);
 
             return View(vm);
         }
@@ -193,6 +222,14 @@ namespace TARge21Shop.Controllers
             {
                 return NotFound();
             }
+
+            var images = await _context.FileToApis
+                .Where(x => x.RealEstateId == id)
+                .Select(y => new FileToApiViewModel
+                {
+                    FilePath = y.ExistingFilePath,
+                    ImageId = y.Id
+                }).ToArrayAsync();
 
             var vm = new RealEstateDeleteViewModel();
 
@@ -210,7 +247,8 @@ namespace TARge21Shop.Controllers
             vm.RoomCount = realEstates.RoomCount;
             vm.CreatedAt = realEstates.CreatedAt;
             vm.ModifiedAt = realEstates.ModifiedAt;
-
+            vm.FileToApiViewModels.AddRange(images);
+                
 
             return View(vm);
         }
@@ -226,6 +264,22 @@ namespace TARge21Shop.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RemoveImage(FileToApiViewModel vm)
+        {
+            var dto = new FileToApiDto()
+            {
+                Id = vm.ImageId
+            };
+            var image = await _filesServices.RemoveImageFromApi(dto);
+
+            if (image == null)
+            {
+                return RedirectToAction(nameof(Index));
+            }
             return RedirectToAction(nameof(Index));
         }
     }

@@ -23,7 +23,7 @@ namespace TARge21Shop.Core.Domain
         public int RoomCount { get; set; }
 
 
-        public IEnumerable<FileToApi> FileToApis { get; set; }
+        public List<FileToApi> FileToApis { get; set; }
         = new List<FileToApi>();
 
         // only in database

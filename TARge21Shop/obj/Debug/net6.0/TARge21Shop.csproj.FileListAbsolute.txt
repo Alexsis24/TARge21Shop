@@ -81,6 +81,7 @@ C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\TARge21Shop.pdb
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Humanizer.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -88,6 +89,8 @@ C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -95,6 +98,8 @@ C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Nancy.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
