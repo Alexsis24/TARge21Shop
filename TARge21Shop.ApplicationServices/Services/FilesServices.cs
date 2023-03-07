@@ -11,6 +11,8 @@ using TARge21Shop.Core.Dto;
 using TARge21Shop.Core.ServiceInterface;
 using TARge21Shop.Data;
 using Microsoft.AspNetCore;
+using TARge21Shop.Core.Domain.CarDomains;
+using TARge21Shop.Core.Dto.CarDtos;
 
 namespace TARge21Shop.ApplicationServices.Services
 {
@@ -79,7 +81,7 @@ namespace TARge21Shop.ApplicationServices.Services
 
             return null;
         }
-
+        //
         public void FilesToApi(RealEstateDto dto, RealEstate realEstate)
         {
             string uniqueFileName = null;
@@ -148,6 +150,58 @@ namespace TARge21Shop.ApplicationServices.Services
             _context.FileToApis.Remove(imageId);
             await _context.SaveChangesAsync();
                         
+            return null;
+        }
+        //
+
+        public void UploadFilesToDatabase(CarDto dto, Car domain)
+        {
+            if (dto.Files != null && dto.Files.Count > 0)
+            {
+                foreach (var photo in dto.Files)
+                {
+                    using (var target = new MemoryStream())
+                    {
+                        CarFileToDatabase files = new CarFileToDatabase()
+                        {
+                            Id = Guid.NewGuid(),
+                            ImageTitle = photo.FileName,
+                            CarId = domain.Id,
+                        };
+
+                        photo.CopyTo(target);
+                        files.ImageData = target.ToArray();
+
+                        _context.CarFileToDatabases.Add(files);
+                    }
+                }
+            }
+        }
+
+        public async Task<CarFileToDatabase> RemoveImage(CarFileToDatabaseDto dto)
+        {
+            var image = await _context.CarFileToDatabases
+                .Where(x => x.Id == dto.Id)
+                .FirstOrDefaultAsync();
+
+            _context.CarFileToDatabases.Remove(image);
+            await _context.SaveChangesAsync();
+
+            return image;
+        }
+
+        public async Task<List<CarFileToDatabase>> RemoveImagesFromDatabase(CarFileToDatabaseDto[] dtos)
+        {
+            foreach (var dto in dtos)
+            {
+                var image = await _context.CarFileToDatabases
+                    .Where(x => x.Id == dto.Id)
+                    .FirstOrDefaultAsync();
+
+                _context.CarFileToDatabases.Remove(image);
+                await _context.SaveChangesAsync();
+            }
+
             return null;
         }
     }

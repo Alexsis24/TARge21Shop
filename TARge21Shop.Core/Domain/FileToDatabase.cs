@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace TARge21Shop.Core.Domain
+﻿namespace TARge21Shop.Core.Domain
 {
     public class FileToDatabase
     {
@@ -9,6 +6,6 @@ namespace TARge21Shop.Core.Domain
         public string ImageTitle { get; set; }
         public byte[] ImageData { get; set; }
         public Guid? SpaceshipId { get; set; }
-        public Guid? CarId { get; set; }
+        //public Guid? CarId { get; set; }
     }
 }
