@@ -62,7 +62,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cars");
+                    b.ToTable("Cars", (string)null);
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.CarFileToDatabase", b =>
@@ -84,7 +84,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CarFileToDatabases");
+                    b.ToTable("CarFileToDatabases", (string)null);
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.FileToApi", b =>
@@ -104,7 +104,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasIndex("RealEstateId");
 
-                    b.ToTable("FileToApis");
+                    b.ToTable("FileToApis", (string)null);
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.FileToDatabase", b =>
@@ -126,7 +126,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("FileToDatabases");
+                    b.ToTable("FileToDatabases", (string)null);
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.RealEstate", b =>
@@ -183,7 +183,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RealEstates");
+                    b.ToTable("RealEstates", (string)null);
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.Spaceship", b =>
@@ -235,7 +235,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Spaceships");
+                    b.ToTable("Spaceships", (string)null);
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.FileToApi", b =>
