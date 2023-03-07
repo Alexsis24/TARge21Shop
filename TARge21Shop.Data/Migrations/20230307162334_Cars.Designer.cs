@@ -12,8 +12,8 @@ using TARge21Shop.Data;
 namespace TARge21Shop.Data.Migrations
 {
     [DbContext(typeof(TARge21ShopContext))]
-    [Migration("20230307155034_Car data to db")]
-    partial class Cardatatodb
+    [Migration("20230307162334_Cars")]
+    partial class Cars
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
