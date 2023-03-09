@@ -11,7 +11,7 @@ namespace TARge21Shop.ApplicationServices.Services
         public async Task<WeatherResultDto> WeatherDetail (WeatherResultDto dto)
         {
             string apikey = "SwR2PEGspxHXK4WpeCnXFOBAF8XDOMxy";
-            var url = $"http://dataservice.accuweather.com/forecasts/v1/daily/1day/{1}";
+            var url = $"http://dataservice.accuweather.com/forecasts/v1/daily/1day/1?apikey=SwR2PEGspxHXK4WpeCnXFOBAF8XDOMxy&language=et&metric=true";
             
 
             using (WebClient client = new WebClient())
@@ -31,7 +31,7 @@ namespace TARge21Shop.ApplicationServices.Services
                 dto.MobileLink = weatherInfo.Headline.MobileLink;
                 dto.Link = weatherInfo.Headline.Link;
                 
-                //dto.DailyForecastsDay = weatherInfo.DailyForecasts[0].Date;
+                //dto.DailyForecastsDay = weatherInfo.Headline.;
                 //dto.DailyForecastsEpochDate = weatherInfo.DailyForecasts[0].EpochDate;
 
                 dto.TempMinValue = weatherInfo.DailyForecasts[0].Temperature.Minimum.Value;

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TARge21Shop.Core.Dto.WeatherDtos
+﻿namespace TARge21Shop.Core.Dto.WeatherDtos
 {
     public class WeatherResultDto
     {
@@ -17,9 +11,6 @@ namespace TARge21Shop.Core.Dto.WeatherDtos
         public int EndEpochDate { get; set; }
         public string MobileLink { get; set; }
         public string Link { get; set; }
-
-        public DateTime DailyForecastsDay { get; set; }
-        public int DailyForecastsEpochDate { get; set; }
 
         public double TempMinValue { get; set; }
         public string TempMinUnit { get; set; }
