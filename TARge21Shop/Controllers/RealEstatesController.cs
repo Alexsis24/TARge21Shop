@@ -1,11 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics.Metrics;
-using System.Drawing;
-using System.Net;
-using System.Numerics;
-using TARge21Shop.ApplicationServices.Services;
-using TARge21Shop.Core.Domain;
 using TARge21Shop.Core.Dto;
 using TARge21Shop.Core.ServiceInterface;
 using TARge21Shop.Data;

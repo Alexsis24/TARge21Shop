@@ -35,12 +35,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xfaW1hZ2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/Email/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/Houses/CreateUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXENyZWF0ZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/Houses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/Houses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/Houses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/OpenWeathers/City.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlbldlYXRoZXJzXENpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/OpenWeathers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlbldlYXRoZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/krist/Documents/Koolitööd/programeerimine/TARge21Shop base file/TARge21Shop/TARge21Shop/Views/RealEstates/CreateUpdate.cshtml]

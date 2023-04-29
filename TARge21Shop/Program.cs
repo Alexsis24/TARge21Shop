@@ -1,3 +1,4 @@
+using MailKit;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using TARge21Shop.ApplicationServices.Services;
@@ -18,7 +19,8 @@ builder.Services.AddScoped<IFilesServices, FilesServices>();
 builder.Services.AddScoped<IRealEstatesServices, RealEstatesServices>();
 builder.Services.AddScoped<IWeatherForecastsServices, WeatherForecastsServices>();
 builder.Services.AddScoped<ICarsServices, CarsServices>();
-
+builder.Services.AddScoped<IEmailServices, EmailServices>();
+builder.Services.AddScoped<IHousesServices, HousesServices>();
 
 var app = builder.Build();
 

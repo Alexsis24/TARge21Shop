@@ -17,5 +17,6 @@ namespace TARge21Shop.Data
         //
         public DbSet<Car> Cars { get; set; }
         public DbSet<CarFileToDatabase> CarFileToDatabases { get; set; }
+        public DbSet<House> Houses { get; set; }
     }
 }

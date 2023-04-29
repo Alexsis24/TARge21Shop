@@ -71,6 +71,14 @@ C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop\obj
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.pdb
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.genruntimeconfig.cache
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop\TARge21Shop\obj\Debug\net6.0\ref\TARge21Shop.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.csproj.AssemblyReference.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.AssemblyInfoInputs.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.AssemblyInfo.cs
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.csproj.CoreCompileInputs.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.RazorAssemblyInfo.cache
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.RazorAssemblyInfo.cs
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\appsettings.json
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\TARge21Shop.staticwebassets.runtime.json
@@ -80,6 +88,7 @@ C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\TARge21Shop.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\TARge21Shop.pdb
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Humanizer.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\MailKit.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -98,8 +107,10 @@ C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\MimeKit.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Nancy.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
@@ -125,14 +136,6 @@ C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\TARge21Shop.ApplicationServices.pdb
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\TARge21Shop.Data.pdb
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\bin\Debug\net6.0\TARge21Shop.Core.pdb
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.csproj.AssemblyReference.cache
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.AssemblyInfoInputs.cache
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.AssemblyInfo.cs
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.csproj.CoreCompileInputs.cache
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.RazorAssemblyInfo.cache
-C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\TARge21Shop.RazorAssemblyInfo.cs
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\krist\Documents\Koolitööd\programeerimine\TARge21Shop base file\TARge21Shop\TARge21Shop\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

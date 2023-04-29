@@ -62,7 +62,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cars", (string)null);
+                    b.ToTable("Cars");
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.CarFileToDatabase", b =>
@@ -84,7 +84,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CarFileToDatabases", (string)null);
+                    b.ToTable("CarFileToDatabases");
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.FileToApi", b =>
@@ -104,7 +104,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasIndex("RealEstateId");
 
-                    b.ToTable("FileToApis", (string)null);
+                    b.ToTable("FileToApis");
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.FileToDatabase", b =>
@@ -126,7 +126,44 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("FileToDatabases", (string)null);
+                    b.ToTable("FileToDatabases");
+                });
+
+            modelBuilder.Entity("TARge21Shop.Core.Domain.House", b =>
+                {
+                    b.Property<Guid?>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BuildingType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ListedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ModifiedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Houses");
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.RealEstate", b =>
@@ -183,7 +220,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RealEstates", (string)null);
+                    b.ToTable("RealEstates");
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.Spaceship", b =>
@@ -235,7 +272,7 @@ namespace TARge21Shop.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Spaceships", (string)null);
+                    b.ToTable("Spaceships");
                 });
 
             modelBuilder.Entity("TARge21Shop.Core.Domain.FileToApi", b =>
