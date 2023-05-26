@@ -21,6 +21,7 @@ builder.Services.AddScoped<IWeatherForecastsServices, WeatherForecastsServices>(
 builder.Services.AddScoped<ICarsServices, CarsServices>();
 builder.Services.AddScoped<IEmailServices, EmailServices>();
 builder.Services.AddScoped<IHousesServices, HousesServices>();
+builder.Services.AddScoped<IOpenWeatherServices, OpenWeatherServices>();
 
 var app = builder.Build();
 

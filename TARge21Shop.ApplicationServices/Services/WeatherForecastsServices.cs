@@ -31,8 +31,8 @@ namespace TARge21Shop.ApplicationServices.Services
                 dto.MobileLink = weatherInfo.Headline.MobileLink;
                 dto.Link = weatherInfo.Headline.Link;
 
-                //dto.DailyForecastsDay = weatherInfo.Headline.;
-                //dto.DailyForecastsEpochDate = weatherInfo.DailyForecasts[0].EpochDate;
+                dto.DailyForecastsDay = weatherInfo.DailyForecasts[0].Date;
+                dto.DailyForecastsEpochDate = weatherInfo.DailyForecasts[0].EpochDate;
 
                 dto.TempMinValue = weatherInfo.DailyForecasts[0].Temperature.Minimum.Value;
                 dto.TempMinUnit = weatherInfo.DailyForecasts[0].Temperature.Minimum.Unit;
@@ -67,15 +67,18 @@ namespace TARge21Shop.ApplicationServices.Services
             using (WebClient client = new WebClient())
             {
                 string json = client.DownloadString(url);
-                OpenWeatherRootDto weatherResult = new JavaScriptSerializer().Deserialize<OpenWeatherRootDto>(json);
+                OpenWeatherRootDto weatherInfo = new JavaScriptSerializer().Deserialize<OpenWeatherRootDto>(json);
 
-                dto.City = weatherResult.Name;
-                dto.Temp = Math.Round(weatherResult.Main.Temp);
-                dto.Feels_like = Math.Round(weatherResult.Main.Feels_like);
-                dto.Humidity = weatherResult.Main.Humidity;
-                dto.Pressure = weatherResult.Main.Pressure;
-                dto.Speed = weatherResult.Wind.Speed;
-                dto.Description = weatherResult.Weather[0].Description;
+                dto.City = weatherInfo.Name;
+                dto.Temperature = weatherInfo.Main.Temp;
+                dto.Pressure = weatherInfo.Main.Pressure;
+                dto.Feels_like = weatherInfo.Main.FeelsLike;
+                dto.Timezone = weatherInfo.Timezone;
+                dto.Lat = weatherInfo.Coord.Lat;
+                dto.Lon = weatherInfo.Coord.Lon;
+                dto.Description = weatherInfo.Weather[0].Description;
+                dto.Humidity = weatherInfo.Main.Humidity;
+                dto.Speed = weatherInfo.Wind.Speed;
 
             }
             return dto;

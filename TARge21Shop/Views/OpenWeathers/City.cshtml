@@ -1,4 +1,4 @@
-﻿@model TARge21Shop.Models.OpenWeather.SearchCityViewModel
+﻿@model TARge21Shop.Models.OpenWeather.CityResultViewModel
 
 <h1>City</h1>
 
@@ -7,8 +7,8 @@
 		<h2>Forecast for the selected city</h2>
 
 		<div class="form-group row">
-			<label asp-for="CityName" class="col-sm-2 col-form-label"></label>
-			@Html.DisplayFor(model => model.CityName)
+			<label asp-for="City" class="col-sm-2 col-form-label"></label>
+			@Html.DisplayFor(model => model.City)
 		</div>
 
 		<div class="form-group row">
@@ -27,8 +27,8 @@
 		</div>
 
 		<div class="form-group row">
-			<label asp-for="Temp" class="col-sm-2 col-form-label"></label>
-			@Html.DisplayFor(model => model.Temp)
+			<label asp-for="Temperature" class="col-sm-2 col-form-label"></label>
+			@Html.DisplayFor(model => model.Temperature)
 		</div>
 
 		<div class="form-group row">
@@ -44,6 +44,16 @@
 		<div class="form-group row">
 			<label asp-for="Humidity" class="col-sm-2 col-form-label"></label>
 			@Html.DisplayFor(model => model.Humidity)
+		</div>
+
+		<div class="form-group row">
+			<label asp-for="Description" class="col-sm-2 col-form-label"></label>
+			@Html.DisplayFor(model => model.Description)
+		</div>
+
+		<div class="form-group row">
+			<label asp-for="Speed" class="col-sm-2 col-form-label"></label>
+			@Html.DisplayFor(model => model.Speed)
 		</div>
 	</dl>
 </div>

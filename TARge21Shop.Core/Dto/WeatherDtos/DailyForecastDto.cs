@@ -11,11 +11,9 @@ namespace TARge21Shop.Core.Dto.WeatherDtos
        
     }
     public class Temperature
-    {
-        [JsonPropertyName("Minimum")]
+    {       
         public Minimum Minimum { get; set; }
 
-        [JsonPropertyName("Maximum")]
         public Maximum Maximum { get; set; }
     }
 

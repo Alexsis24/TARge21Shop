@@ -16,19 +16,42 @@ namespace TARge21Shop.Core.Dto.WeatherDtos
         [JsonPropertyName("weather")]
         public List<Weathers> Weather { get; set; }
 
+        [JsonPropertyName("@base")]
+        public string AtBase { get; set; }
+
         [JsonPropertyName("main")]
         public Mains Main { get; set; }
+
+        [JsonPropertyName("visibility")]
+        public int Visibility { get; set; }
 
         [JsonPropertyName("wind")]
         public Winds Wind { get; set; }
 
+        [JsonPropertyName("rain")]
+        public Rains Rain { get; set; }
+
+        [JsonPropertyName("clouds")]
+        public Clouds Clouds { get; set; }
+
+        [JsonPropertyName("dt")]
+        public int DT { get; set; }
+
+        [JsonPropertyName("sys")]
+        public Syss Sys { get; set; }
+
         [JsonPropertyName("timezone")]
         public int Timezone { get; set; }
 
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
+
         [JsonPropertyName("name")]
         public string Name { get; set; }
-    }
 
+        [JsonPropertyName("cod")]
+        public int Cod { get; set; }
+    }
     public class Clouds
     {
 
@@ -53,7 +76,7 @@ namespace TARge21Shop.Core.Dto.WeatherDtos
         public double Temp { get; set; }
 
         [JsonPropertyName("feels_like")]
-        public double Feels_like { get; set; }
+        public double FeelsLike { get; set; }
 
         [JsonPropertyName("temp_min")]
         public double TempMin { get; set; }
@@ -128,5 +151,4 @@ namespace TARge21Shop.Core.Dto.WeatherDtos
         [JsonPropertyName("gust")]
         public double Gust { get; set; }
     }
-
 }
